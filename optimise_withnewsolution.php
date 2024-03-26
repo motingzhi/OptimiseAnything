@@ -44,7 +44,7 @@
         </form>
     </div>
 
-    <p>Let AI suggest solutions with you. Please evaluate at least 3 solutions to proceed.</p>
+    <p>Let AI suggest alternatives with you</p>
     <div id="dataDisplay"></div>
 
 
@@ -182,7 +182,7 @@
 
 	
 	var displayDiv = document.getElementById("dataDisplay");
-        displayDiv.innerHTML =  "You have evaulated " + parseInt(savedSolutions.length/parameterNames.length) + " solutions." + "<br>";
+        displayDiv.innerHTML =  "Please evaluate at least 3 solutions to proceed. You have evaulated " + parseInt(savedSolutions.length/parameterNames.length) + " solutions." + "<br>";
 
 
 //////////////////自己加的 
