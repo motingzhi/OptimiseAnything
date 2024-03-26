@@ -48,7 +48,7 @@
     <div id="dataDisplay"></div>
 
 
-    <p><b>Solution idea</b><p>
+    <p><b>New alternative</b><p>
 
     <p class="parameter_1_mobo"></p>
     <p class="parameter_2_mobo"></p>
@@ -182,7 +182,7 @@
 
 	
 	var displayDiv = document.getElementById("dataDisplay");
-        displayDiv.innerHTML =  "Please evaluate at least 3 solutions to proceed. You have evaulated " + parseInt(savedSolutions.length/parameterNames.length) + " solutions." + "<br>";
+        displayDiv.innerHTML =  "Please evaluate at least 3 alternatives to proceed. You have evaulated " + parseInt(savedSolutions.length/parameterNames.length) + "<br>";
 
 
 //////////////////自己加的 
