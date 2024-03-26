@@ -91,7 +91,6 @@ if (isset($_GET['code'])) {
   <ul>
     <li>Full Name: <?= $userinfo['full_name'] ?></li>
     <li>Email Address: <?= $userinfo['email'] ?></li>
-    <li>Gender: <?= $userinfo['gender'] ?></li>
     <li><a href="logout.php">Logout</a></li>
   </ul>
 
