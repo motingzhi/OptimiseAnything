@@ -81,3 +81,7 @@ nano /etc/apache2/conf-available/serve-cgi-bin.conf -
 
 https://medium.com/@rohan_precise/step-by-step-guide-setting-up-and-connecting-mysql-on-ec2-ubuntu-instance-72c627e6c27f
 https://askubuntu.com/questions/668734/the-requested-url-phpmyadmin-was-not-found-on-this-server
+
+
+
+https://github.com/MusabDev/php-google-login
