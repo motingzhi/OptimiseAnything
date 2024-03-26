@@ -28,17 +28,14 @@ if (isset($_SESSION['user_token'])) {
     <br>
     <p><b>Get started:</b></h2>
     <div style="text-align: center;">
+    <?php if ($showGoogleLogin): ?>
+            <!-- 只有在 $showGoogleLogin 为 true 时才显示 Google 登录按钮 -->
+            <a href="<?php echo $client->createAuthUrl(); ?>" class="btn btn-danger">Login with Google</a>
 
-
+            <!-- <button onclick="window.location = '<?php echo "<a href='" . $client->createAuthUrl() . "'>Google Login</a>"; ?>'" type="button" class="btn btn-danger">Login with Google</button> -->
+    <?php endif; ?>
     </div>
-
-    <div style="text-align: center;">
-        <form action="how-it-works.php">
-            <input type="submit" value="Let's start!" class="button" style="width: 20%;"/>
-        </form>
-    </div>
-    
-    </div>
+      
 </body>
 </html>
     
